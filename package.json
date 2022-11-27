@@ -1,0 +1,13 @@
+{
+  "name": "Blocks-Demo",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "main": "source/index.js",
+  "devDependencies": {
+    "@wordpress/scripts": "^24.6.0"
+  },
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  }
+}

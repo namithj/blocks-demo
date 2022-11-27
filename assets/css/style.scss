@@ -1,0 +1,30 @@
+.visiting-card {
+	padding: 15px;
+	border: 2px solid #000;
+	box-shadow: 0 0 5px #000;
+	text-align: center;
+
+	&.is-style-borderless {
+		border: none;
+		box-shadow: none;
+	}
+
+	figure {
+		text-align: center;
+		margin: 0 0 10px;
+
+		img {
+			display: block;
+			margin: 0 auto 10px;
+			max-width: 200px;
+		}
+	}
+
+	h3 {
+		margin: 0 0 10px;
+	}
+
+	.description {
+		text-align: justify;
+	}
+}
